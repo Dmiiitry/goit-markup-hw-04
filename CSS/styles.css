@@ -370,7 +370,7 @@ img {
 }
 
 .position {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: normal;
@@ -412,15 +412,16 @@ img {
   fill: #afb1b8;
 }
 
-.client-image-box:hover,
-.client-image-box:focus {
+.client-list-link:hover .client-image-box,
+.client-list-link:focus .client-image-box {
   border-color: var(--accent-color);
 }
 
-.client-image-box:hover .logo-company,
-.client-image-box:focus .logo-company {
+.client-list-link:hover .logo-company,
+.client-list-link:focus .logo-company {
   fill: var(--accent-color);
 }
+
 /*========PORTFOLIO START========*/
 .section-projects {
   padding-top: 94px;
